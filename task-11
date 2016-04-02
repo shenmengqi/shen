@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+*{ margin:0; padding:0;}
+#yi{ background-color:RGB(145,212,218); width:100%; height:80px;color:white; font-size:36px;font-weight:bold;}
+#yi1{ font-size:56px; position:relative; top:6px; }
+#yi2{  position:relative; left:30%;}
+header nav{ height:80px; width:100%;}
+.yi3{ width:20%; height:60px; float:left; color:black; text-align:center; font-size:24px; padding-top:32px; }
+.yi3 a{ text-decoration:none;}
+.yi3 a:hover{ border-bottom:solid 5px #3300FF; padding-bottom:30px; }
+header img{ width:100%; height:600px;}
+#er{ height:250px; width:100%; }
+.er1{ height:220px; width:20%; float:left; text-align:center; font-size:24px;}
+.er1 img{ width:70%;  height:150px; padding-bottom:10px; padding-top:20px;}
+#san{ width:90%; height:550px;  margin:0 auto; border-top:3px solid rgb(229,229,229); }
+.san1{ width:32%; float:left; height:auto; text-align:center; margin-top:50px; margin-bottom:50px; font-size:38px; border-right:solid 3px rgb(229,229,229) }
+.san1:nth-child(3){ border-right:none;}
+.san1 img{ height:300px; width:70%;}
+.san2{ font-size:46px; line-height:80px; font-weight:bold;}
+#si{ width:100%; height:auto;}
+.si1{ width:100%; height:30px; background-color:rgb(229,229,229);}
+.si2{  width:90%; height:70px;  margin:0 auto; border-bottom:3px solid rgb(229,229,229); font-size:46px; padding-top:25px; font-weight:bold; }
+.si3{ width:90%; height:250px;  margin:0 auto; margin-top:40px; margin-bottom:50px;}
+.si3 img{ width:22%; height:250px; border:solid 2px #FF9900; float:left;}
+.si4{ display:inline; float:left; height:254px; width:75%;  margin-left:2%; }
+.si5{display:inline; float:left; height:100px; width:45%; background-color:rgb(229,229,229); text-align:center; font-size:36px;}
+.si5 span{ position:relative; top:30px;}
+.si5:nth-child(1){ margin-right:9%;}
+.si5:nth-child(3){ margin-right:9%; margin-top:54px;}
+.si5:nth-child(4){  margin-top:54px;}
+.wu{ width:100%; border-bottom:3px solid rgb(229,229,229); height:200px;}
+.wu1{ width:90%; height:200px; margin:0 auto; margin-top:40px; margin-bottom:40px;}
+.wu1 img{ float:left; width:22%; height:180px;}
+.wu2{ display:inline; width:70%; float:left; font-size:36px; margin-left:5%; font-weight:bold; height:100px;}
+.wu3{display:inline; width:70%; float:left; font-size:36px; margin-left:5%; font-weight:bold; margin-top:30px; color: rgb(209,209,209);}
+#liu{width:90%; height:400px; margin:0 auto;font-size:46px; font-weight:bold;}
+#liu img{ height:220px; width:30%; padding-right:10px; padding-top:20px;}
+#liu span{font-size:36px; font-weight:bold; color: rgb(209,209,209);}
+#qi{ background: rgb(248,248,248); width:100%; height:150px; margin-top:20px;}
+</style>
+</head>
+
+<body>
+   <header>
+      <div id="yi">
+          <span id="yi1">&nbsp;&lt;</span>&nbsp;返回<span id="yi2">这是标题</span>
+      </div>
+      <nav>
+          <div class="yi3"><a href="">&nbsp;&nbsp;&nbsp;导航&nbsp;&nbsp;&nbsp;</a></div>
+          <div class="yi3"><a href="">&nbsp;&nbsp;&nbsp;导航&nbsp;&nbsp;&nbsp;</a></div>
+          <div class="yi3"><a href="">&nbsp;&nbsp;&nbsp;导航&nbsp;&nbsp;&nbsp;</a></div>
+          <div class="yi3"><a href="">&nbsp;&nbsp;&nbsp;导航&nbsp;&nbsp;&nbsp;</a></div>
+          <div class="yi3"><a href="">&nbsp;&nbsp;&nbsp;导航&nbsp;&nbsp;&nbsp;</a></div>
+      </nav>
+      <img src="bear.jpg">
+      <div id="er">
+          <div class="er1"><img src="text.jpg"><br>标签</div>
+          <div class="er1"><img src="text.jpg"><br>标签</div>
+          <div class="er1"><img src="text.jpg"><br>标签</div>
+          <div class="er1"><img src="text.jpg"><br>标签</div>
+          <div class="er1"><img src="text.jpg"><br>标签</div>
+      </div>
+      <div id="san">
+         <div class="san1"><img src="sub-1.jpg"><br><span class="san2">分栏一</span><br>分栏小标题</div>
+         <div class="san1"><img src="sub-2.jpg"><br><span class="san2">分栏二</span><br>分栏小标题</div>
+         <div class="san1"><img src="sub-3.jpg"><br><span class="san2">分栏三</span><br>分栏小标题</div>
+      </div>
+   </header>
+   <div id="si">
+      <div class="si1"></div>
+      <div class="si2">模块一</div>
+      <div class="si3">
+          <img src="head.jpg">
+          <div class="si4">
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+          </div>
+      </div>
+            <div class="si1"></div>
+      <div class="si2">模块二</div>
+      <div class="si3">
+          <img src="head.jpg">
+          <div class="si4">
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+             <div class="si5"><span>这是文案</span></div>
+          </div>
+      </div>
+   </div>
+   <div class="si1"></div>
+   <div class="wu">
+      <div class="wu1">
+          <img src="bear-1.jpg">
+          <div class="wu2">这是文章标题字号是22的文字标题</div>
+          <div class="wu3">文章来源&nbsp;&nbsp;&nbsp;6分钟前</div>
+   </div>
+   <div class="wu">
+      <div class="wu1">
+          <img src="bear-1.jpg">
+          <div class="wu2">这是另一个文章标题</div>
+          <div class="wu3">文章来源&nbsp;&nbsp;&nbsp;7分钟前</div>
+      </div>
+   </div>
+   <div id="liu">
+        这个也是文章标题字号是22的文字标题<br>
+        <img src="bear-1.jpg"><img src="bear-1.jpg"><img src="bear-1.jpg"><br>
+        <span>文章来源&nbsp;&nbsp;&nbsp;7分钟前</span>
+        <div id="qi"></div>
+   </div>
+   
+</body>
+</html>
